@@ -1,0 +1,13 @@
+{
+  "name": "qdai",
+  "description": "Guidance for installing and using the upcoming Quick Deploy CLI.",
+  "version": "0.1.0",
+  "category": "deployment",
+  "docs": "README.md",
+  "tags": [
+    "quickdeployai",
+    "deployment",
+    "cli",
+    "guide"
+  ]
+}
