@@ -1,0 +1,77 @@
+{
+  "schema_version": "2026-07-04",
+  "kind": "quickdeploy.agent-skill.registry",
+  "registry_id": "quickdeploy/default-agent-skills",
+  "name": "QuickDeploy Official Agent Skills",
+  "description": "Official QuickDeploy AI agent skills used to populate default entries in the marketplace capability registry.",
+  "publisher": {
+    "name": "QuickDeployAI",
+    "url": "https://github.com/QuickDeployAI"
+  },
+  "canonical_url": "https://raw.githubusercontent.com/QuickDeployAI/agent-skills/main/registry/index.json",
+  "mirrors": [
+    {
+      "type": "git",
+      "url": "https://github.com/QuickDeployAI/agent-skills"
+    }
+  ],
+  "agents": [
+    {
+      "id": "quickdeploy-docs",
+      "skill": "skills/quickdeploy-docs/SKILL.md",
+      "summary": {
+        "agent_id": "quickdeploy-docs",
+        "name": "QuickDeploy Docs",
+        "description": "Look up official QuickDeploy AI documentation from the agent-optimized llms.txt index and markdown page variants.",
+        "availability": "available",
+        "framework": "agent-skill",
+        "version": "1.0.0",
+        "publisher": "QuickDeployAI",
+        "repository_url": "https://github.com/QuickDeployAI/agent-skills/tree/main/skills/quickdeploy-docs",
+        "website_url": "https://docs.quickdeploy.ai",
+        "license": "MIT",
+        "is_official": true,
+        "is_paid": false,
+        "updated_at": "2026-07-04T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "quickdeploy-deployments",
+      "skill": "skills/quickdeploy-deployments/SKILL.md",
+      "summary": {
+        "agent_id": "quickdeploy-deployments",
+        "name": "QuickDeploy Deployments",
+        "description": "Manage QuickDeploy AI tenant deployments through the Control-Plane API: create, inspect, pause, resume, promote, rollback, and delete.",
+        "availability": "available",
+        "framework": "agent-skill",
+        "version": "1.0.0",
+        "publisher": "QuickDeployAI",
+        "repository_url": "https://github.com/QuickDeployAI/agent-skills/tree/main/skills/quickdeploy-deployments",
+        "website_url": "https://quickdeploy.ai",
+        "license": "MIT",
+        "is_official": true,
+        "is_paid": false,
+        "updated_at": "2026-07-04T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "quickdeploy-admin",
+      "skill": "skills/quickdeploy-admin/SKILL.md",
+      "summary": {
+        "agent_id": "quickdeploy-admin",
+        "name": "QuickDeploy Admin",
+        "description": "Administer QuickDeploy AI org and enterprise governance: policies, approval decisions, cost budgets, and audit events.",
+        "availability": "available",
+        "framework": "agent-skill",
+        "version": "1.0.0",
+        "publisher": "QuickDeployAI",
+        "repository_url": "https://github.com/QuickDeployAI/agent-skills/tree/main/skills/quickdeploy-admin",
+        "website_url": "https://quickdeploy.ai",
+        "license": "MIT",
+        "is_official": true,
+        "is_paid": false,
+        "updated_at": "2026-07-04T00:00:00.000Z"
+      }
+    }
+  ]
+}
